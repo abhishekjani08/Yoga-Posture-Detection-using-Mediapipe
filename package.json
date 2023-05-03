@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "vite": "^4.2.1"
+  }
+}
