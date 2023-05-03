@@ -45,8 +45,8 @@ const Yog3 = () => {
           />
         </div>
       </div>
-      <div className="yogStartPose my-2 ">
-        <button onClick={startYoga} className="btn btn-primary w-20 my-6">Start Pose</button>
+      <div className="mt-5 yogStartPose my-2 ">
+      <button  onClick={startYoga} className="btn btn-primary w-20 my-6">Start Pose</button>
       </div>
     </div>
   );

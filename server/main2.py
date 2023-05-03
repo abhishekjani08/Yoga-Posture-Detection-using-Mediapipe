@@ -593,38 +593,14 @@ def convert_data(landmarks):
 cap = cv2.VideoCapture(0)
 # path = "Video/yoga19.jpg"
 
-bike = 3
+bike = 2
  
 if bike == 2:
-    path = "Video/yoga19.jpg"
- 
-elif bike == 3:
-    path = "Video/yoga25.jpg"
-
- 
-elif bike == 4:
     path = "Video/yoga11.jpg"
 
-elif bike == 5:
-    path = "Video/yoga12.jpg"
-    
-elif bike == 6:
-    path = "Video/yoga8.jpg"
-    
-elif bike == 7:
-    path = "Video/yoga9.jpg"
-
-elif bike == 8:
-    path = "Video/yoga10.jpg"
-
-elif bike == 9:
-    path = "Video/yoga13.jpg"
-    
-else:
-    path = "Video/yoga16.jpg"
 
                 
-x = extractKeypoint( path)
+x = extractKeypoint(path)
 dim = (560, 360)
 resized = cv2.resize(x[3], dim, interpolation = cv2.INTER_AREA)
 cv2.imshow('target',resized)
@@ -774,11 +750,4 @@ with mp_pose.Pose(min_detection_confidence =0.5, min_tracking_confidence = 0.5) 
     cap.release()
     cv2.destroyAllWindows()
     
-      
-
-
-# In[ ]:
-
-
-
-
+    
