@@ -1,0 +1,24 @@
+a{
+    text-decoration: none;
+}
+.navbar{
+    height: 66px;
+}
+.navbarElement{
+    background-color: none;
+    font-size: 20px;
+    font-weight: 500;
+    /* opacity: 0.80; */
+    /* height: 20px; */
+    
+}
+.navbar-nav{
+    background-color: none;
+    padding: 0px 20px;
+}
+
+.navbar-brand{
+    font-size: 28px;
+    opacity: 0.70;
+    font-weight: 600;
+}

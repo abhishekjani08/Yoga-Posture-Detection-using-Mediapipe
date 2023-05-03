@@ -1,0 +1,18 @@
+.learnContainer{
+    background-color: #F4761F;
+    /* height: 1; */
+    width: 100%;
+    overflow: hidden;
+}
+
+.rowss{
+    flex-direction: row;
+    display: flex;
+    gap: 10px;
+    /* margin: 20px; */
+    padding: 10px;
+}
+
+.grid{
+    margin: 0px;
+}

@@ -1,0 +1,68 @@
+/* .yogInfo{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+}
+.yogImg{
+    display: flex   ;
+    flex-grow: 1;
+} */
+
+.yogContainer{
+    /* height: 100vh;
+    margin: auto; */
+    overflow-y: hidden;
+    height: 90vh;
+    max-height: 100%;
+    /* margin: auto ; */
+    /* background-color: yellow; */
+    background-color: #F4761F;
+    /* color: white; */
+
+
+}
+.yogContainer > h1{
+    color: black;
+
+}
+.yogContainerData{
+    display: flex;
+    /* padding: 8; */
+    /* justify-content: space-around; */
+
+}
+    .yogContainerData > *{
+
+        flex: 1 1 ;
+        height: auto;   
+    }
+
+.yogStartPose > button{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+
+}
+li{
+    margin: 15px 0px ;
+}
+.yogImg > img{
+    width: 60%;
+}
+.yogInfo {
+    font-size: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #f57f2b;
+    box-shadow: 5px 10px #222222;
+
+    
+}
+.yogInfo li{
+    /* width: 80% ; */
+
+}
+

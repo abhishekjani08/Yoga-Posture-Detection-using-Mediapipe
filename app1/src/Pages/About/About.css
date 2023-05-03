@@ -1,0 +1,35 @@
+.aboutContainer{
+    background-color: #F4761F;
+    height: 90vh;
+    padding: 10px;  
+    padding: 20px ;
+    margin:auto;
+}
+.aboutContainer{
+
+}
+
+.aboutData{
+    margin: 100px 0px;
+    /* gap: 10px; */
+}
+.aboutData  > h5{
+    font-size: 25px;
+    /* text-align: center  ; */
+    border: 1px solid black;
+    width: 150px ;
+    padding: 5px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    background-color: #fc8938;
+
+    box-shadow: 2px 3px #222222;
+
+    /* color: green; */
+
+}
+.aboutData  > p{
+    font-size:18px ;
+    color: rgba(20, 20, 20, 0.815);
+    font-weight: 550;
+}
