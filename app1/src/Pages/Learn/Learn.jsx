@@ -45,7 +45,7 @@ const Learn = () => {
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
               </Card.Text> */}
-              <Link to="/learn/yog5">
+              <Link to="/learn/yog2">
                 <button className="btn btn-primary mx-auto flex align-items-center justify-content-center ">
                   Start Pose
                 </button>
@@ -63,7 +63,7 @@ const Learn = () => {
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
               </Card.Text> */}
-              <Link to="/learn/yog4">
+              <Link to="/learn/yog3">
                 <button className="btn btn-primary">Start Pose</button>
               </Link>
             </Card.Body>
@@ -87,7 +87,7 @@ const Learn = () => {
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
               </Card.Text> */}
-              <Link to="/learn/yog2">
+              <Link to="/learn/yog4">
                 <button className="btn btn-primary">Start Pose</button>
               </Link>
             </Card.Body>
@@ -109,7 +109,7 @@ const Learn = () => {
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
               </Card.Text> */}
-              <Link to="/learn/yog3">
+              <Link to="/learn/yog5">
                 <button className="btn btn-primary">Start Pose</button>
               </Link>
             </Card.Body>
@@ -126,7 +126,7 @@ const Learn = () => {
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
               </Card.Text> */}
-              <Link to="/learn/yog4">
+              <Link to="/learn/yog6">
                 <button className="btn btn-primary">Start Pose</button>
               </Link>
             </Card.Body>

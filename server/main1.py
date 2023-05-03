@@ -593,7 +593,7 @@ def convert_data(landmarks):
 cap = cv2.VideoCapture(0)
 # path = "Video/yoga19.jpg"
 
-bike = 2
+bike = 5
  
 if bike == 2:
     path = "Video/yoga19.jpg"
