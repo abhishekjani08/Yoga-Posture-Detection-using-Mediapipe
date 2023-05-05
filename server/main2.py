@@ -596,9 +596,7 @@ cap = cv2.VideoCapture(0)
 bike = 2
  
 if bike == 2:
-    path = "Video/yoga11.jpg"
-
-
+    path = "Video/yoga25.jpg"
                 
 x = extractKeypoint(path)
 dim = (560, 360)

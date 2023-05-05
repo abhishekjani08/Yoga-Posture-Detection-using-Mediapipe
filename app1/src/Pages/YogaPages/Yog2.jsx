@@ -8,7 +8,7 @@ const Yog2 = () => {
 
   function startYoga() {
     setIsStartPose(true);
-    fetch("http://localhost:8080/api/mediapipe/yog5", {
+    fetch("http://localhost:8080/api/mediapipe/yog2", {
       method: "POST",
     }).then((response) => {
       console.log("scripted called sucessfull in the frontend");
